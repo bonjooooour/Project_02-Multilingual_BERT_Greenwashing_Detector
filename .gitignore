@@ -1,0 +1,47 @@
+# Models & heavy files
+saved_models/**/*.safetensors
+saved_models/**/*.bin
+saved_models/**/*.pt
+saved_models/**/checkpoint-*
+saved_models/model_V3/  # ← Exclure le dossier entier
+
+# Checkpoints
+checkpoints/
+checkpoint-*/
+
+# Binary files
+*.safetensors
+*.bin
+*.pt
+
+# Training outputs
+runs/
+training_results/
+
+# Cache
+.cache/
+.huggingface/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/notebook_BERT_classifier_bilngual_V3.ipynb
+notebooks/archives/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.venv/
+venv/
+env/
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

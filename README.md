@@ -8,10 +8,10 @@ Automated semantic analysis of CSR commitments to detect potential forms of gree
 ## Abstract
 
 _**English version**_<br>
-As organizations increasingly leverage CSR commitments to shape public perception, the verifiability of these promises becomes a transparency stake. This project introduces a multilingual BERT-based heterogeneous multi-task classifier, an automated NLP tool for evaluating the credibility of statements from Corporate Social Responsibility (CSR) reports in French and English, preventing potential greenwashing. The multi-task learning system predicts four dimensions (promise detection, timeline clarity, evidence assessment, proof quality), then combines them via a hybrid scoring method (rule-based + probabilistic) to output a greenwashing risk score (0-100).
+As organizations increasingly leverage CSR commitments to shape public perception, the verifiability of these promises becomes a transparency stake. This machine learning project introduces a multilingual BERT-based heterogeneous multi-task classifier, an automated NLP tool for evaluating the credibility of statements from Corporate Social Responsibility (CSR) reports in French and English, preventing potential greenwashing. The multi-task learning system predicts four dimensions (promise detection, timeline clarity, evidence assessment, proof quality), then combines them via a hybrid scoring method (rule-based + probabilistic) to output a greenwashing risk score (0-100).
 
 _**French version**_<br>
-À mesure que les organisations exploitent les engagements RSE pour façonner la perception publique, la vérifiabilité de ces promesses devient cruciale. Ce projet introduit un classificateur multi-tâches hétérogène basé sur le modèle BERT multilingue. Il s'agit d'un outil de NLP pour évaluer de façon automatisée la crédibilité des déclarations et engagements pris au sein de rapports de Responsabilité Sociétale des Entreprises (RSE), en français et en anglais, permettant ainsi de détecter et limiter les risques de greenwashing. Le système d'apprentissage multi-tâches prédit quatre dimensions (détection de promesses, clarté temporelle, évaluation des preuves, qualité des justifications), puis les combine via une méthode de calcul hybride (basée sur des règles + probabiliste) pour produire un score de risque de greenwashing (0-100).
+À mesure que les organisations exploitent les engagements RSE pour façonner la perception publique, la vérifiabilité de ces promesses devient cruciale. Ce projet introduit un classificateur multi-tâches hétérogène basé sur le modèle BERT multilingue. Il s'agit d'un outil d'apprentissage automatique, précisément de Natural Language Processing (NLP), pour l'évaluation automatisée de la crédibilité des déclarations et engagements pris au sein de rapports de Responsabilité Sociétale des Entreprises (RSE), en français et en anglais, permettant ainsi de détecter et limiter les risques de greenwashing. Le système d'apprentissage multi-tâches prédit quatre dimensions (détection de promesses, clarté temporelle, évaluation des preuves, qualité des justifications), puis les combine via une méthode de calcul hybride (basée sur des règles + probabiliste) pour produire un score de risque de greenwashing (0-100).
 
 
 ## Context & Problem Statement
@@ -25,7 +25,7 @@ Given this challenge of transparency and combating misinformation, an automated 
 
 ## Objectives
 
-The "Multilingual BERT Greenwashing Detector" project aims to develop an automated evaluation tool for text excerpts from CSR reports.
+The "Multilingual BERT Greenwashing Detector" project aims to develop a machine learning based evaluation tool for text excerpts from CSR reports.
 
 ### Phase 1: Multi-dimensional Predictions
 
